@@ -1,3 +1,4 @@
+include ':step02sharedPreferences'
 include ':step01intent'
 include ':app'
 rootProject.name = "study-android"
