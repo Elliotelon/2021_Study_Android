@@ -1,3 +1,4 @@
+include ':step04thread'
 include ':step03activitylifecycle'
 include ':step02sharedpreferences'
 include ':step01intent'
