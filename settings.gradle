@@ -1,3 +1,4 @@
+include ':step06nullsafety'
 include ':step05context'
 include ':step04thread'
 include ':step03activitylifecycle'
