@@ -1,3 +1,4 @@
+include ':step08realm'
 include ':step07resource'
 include ':step06nullsafety'
 include ':step05context'
