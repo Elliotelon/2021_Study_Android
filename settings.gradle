@@ -1,3 +1,4 @@
+include ':step10textview'
 include ':step09Library'
 include ':step08realm'
 include ':step07resource'
