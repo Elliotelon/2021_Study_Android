@@ -17,6 +17,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        android:text="RESULT"
+        app:layout_constraintTop_toTopOf="@id/moveBtn"
+        app:layout_constraintBottom_toBottomOf="@id/moveBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/moveBtn"
+        android:id="@+id/resultText"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/moveBtn"
         android:layout_width="wrap_content"
@@ -26,5 +37,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mainTextView"
         android:text="화면이동"/>
+    <Button
+        android:id="@+id/moveBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/moveBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTextView"
+        android:text="화면이동2"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package fastcampus.aop.part4.step01fragment
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -23,7 +24,16 @@ class SecondActivity : AppCompatActivity() {
 
         //버튼을 클릭했을때 액티비티 종료하기
         backBtn.setOnClickListener {
+            val intent = Intent()
+            intent.putExtra("result", "ok")
+            setResult(RESULT_OK, intent)
             finish()
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        setResult(RESULT_CANCELED)
+        finish()
     }
 }
